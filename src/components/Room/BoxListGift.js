@@ -87,7 +87,7 @@ const BoxListGift = ({ onClickBoxClose }) => {
     let roomName = url[url.length - 1];
     axios({
       method: 'GET',
-      url: `http://192.168.1.216:8081/participants?roomName=${roomName}`,
+      url: `https://at3s-twilio-demo.herokuapp.com:8081/participants?roomName=${roomName}`,
     }).then(response => {
       setListParticipants(response.data.participants);
     });
