@@ -11,9 +11,9 @@ const Twilio = require('twilio');
 require('dotenv').config();
 
 const MAX_ALLOWED_SESSION_DURATION = 14400;
-const twilioAccountSid = process.env.TWILIO_ACCOUNT_SID;
-const twilioApiKeySID = process.env.TWILIO_API_KEY_SID;
-const twilioApiKeySecret = process.env.TWILIO_API_KEY_SECRET;
+const twilioAccountSid = 'AC4f6233c659481bb667aac2c41f06a98c';
+const twilioApiKeySID = 'SKdbca65c1e341e4f9cefbae452537b41e';
+const twilioApiKeySecret = '1X5DFqnuXk43Kbg1cAgDu7YhUxSewpj9';
 
 // app.use(express.static(path.join(__dirname, 'build')));
 
